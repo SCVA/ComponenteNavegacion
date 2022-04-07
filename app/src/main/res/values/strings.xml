@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ComponenteNavegacion</string>
+    <string name="boton_1">Opcion1</string>
+    <string name="boton_2">Opcion2</string>
+    <string name="texto_op1">Entro a la opcion1</string>
+    <string name="texto_op2">Entro a la opcion2</string>
+    <string name="boton3">Opcion3</string>
+    <string name="texto_op3">Entro a la opcion3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/principal">
+
+    <fragment
+        android:id="@+id/principal"
+        android:name="com.example.componentenavegacion.Principal"
+        android:label="fragment_principal"
+        tools:layout="@layout/activity_main2" >
+        <action
+            android:id="@+id/action_principal_to_opcion_1"
+            app:destination="@id/opcion_1" />
+        <action
+            android:id="@+id/action_principal_to_opcion_2"
+            app:destination="@id/opcion_2" />
+    </fragment>
+    <fragment
+        android:id="@+id/opcion_1"
+        android:name="com.example.componentenavegacion.Opcion_1"
+        android:label="fragment_opcion_1"
+        tools:layout="@layout/activity_main3" />
+    <fragment
+        android:id="@+id/opcion_2"
+        android:name="com.example.componentenavegacion.Opcion_2"
+        android:label="fragment_opcion_2"
+        tools:layout="@layout/activity_main4" >
+        <action
+            android:id="@+id/action_opcion_2_to_opcion_3"
+            app:destination="@id/opcion_3" />
+    </fragment>
+    <fragment
+        android:id="@+id/opcion_3"
+        android:name="com.example.componentenavegacion.Opcion_3"
+        android:label="fragment_opcion_3"
+        tools:layout="@layout/activity_main5" />
+</navigation>
